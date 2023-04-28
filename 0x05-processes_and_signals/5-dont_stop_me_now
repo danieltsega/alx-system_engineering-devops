@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #A script that kills the previous process
-b="$(pgrep 4-to_infinity_and_beyond)"
-kill "$b"
+b="$(pgrep -f 4-to_infinity_and_beyond)"
+kill -15 "$b"
