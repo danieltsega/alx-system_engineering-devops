@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#adding while loop with if condition
+i=0
+while [ $i -lt 10 ]
+do
+	if [ $i -eq 8 ]
+		then
+		echo "Best School"
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	i=$((i+1))
+done
