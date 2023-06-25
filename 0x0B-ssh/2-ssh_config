@@ -1,0 +1,5 @@
+# A script to connect without password
+
+Host *
+	IdentityFile ~/.ssh/school
+	PasswordAuthentication no
