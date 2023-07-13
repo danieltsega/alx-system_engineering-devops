@@ -15,8 +15,8 @@ frontend server-frontend
 
 backend server_backend
     balance roundrobin
-    server 209086-web-01 52.73.28.65:80 check
-    server 209086-web-02 54.90.18.103:80 check
+    server 197107-web-01 34.232.77.180:80 check
+    server 197107-web-02 54.236.16.94:80 check
 "
 echo "$config_string" | sudo tee -a /etc/haproxy/haproxy.cfg
 
